@@ -2,10 +2,6 @@
 
 Differential expression analysis pipeline for a bulk RNA-seq dataset comparing *Drosophila melanogaster* populations (Maine vs. Panama) acclimated at two temperatures (high vs. low), using `limma`-`voom` with sample quality weights.
 
-## ⚠️ Known issue
-
-Three `save.image()` calls in `R/Bulk_RNA-seq_DE_analysis.R` are missing a closing parenthesis (search for `.Rdata")` without a trailing `)`). This will raise a parsing error if the script is run non-interactively (`Rscript`, `source()`). Fix before running end-to-end; it does not affect line-by-line execution in RStudio.
-
 ## Data
 
 Raw/intermediate data files are not version-controlled (excluded via `.gitignore`, ~22 GB). To reproduce the analysis, place the following two files in a local `Data/` folder:
