@@ -78,7 +78,6 @@ BiocManager::install(c("limma", "edgeR"))
 # from the project root, with Data/ populated as described above
 source("R/Bulk_RNA-seq_DE_analysis.R")
 ```
-(after fixing the `save.image()` syntax issue noted above)
 
 ## Author
 
