@@ -4,7 +4,7 @@ Differential expression analysis pipeline for a bulk RNA-seq dataset comparing *
 
 ## Data
 
-Raw/intermediate data files are not version-controlled (excluded via `.gitignore`, ~22 GB). To reproduce the analysis, place the following two files in a local `Data/` folder:
+To reproduce the analysis, place the following two files in a local `Data/` folder:
 
 - `salmon.merged.gene_counts.tsv` — gene-level abundance matrix (Salmon output, merged)
 - `dme_elev_samples.tsv` — sample metadata (population, temperature)
